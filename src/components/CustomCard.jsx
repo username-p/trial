@@ -64,10 +64,11 @@ function CustomCard({ applicant, type }) {
 						<DeleteIcon onClick={deleteApplicant} />
 					</Button>
 					<Button size="small">
-						<EditIcon /> {// onclick: popup dialog to edit}
+						<EditIcon /> {/* onclick: popup dialog to edit*/}
 					</Button>
 					<Button size="small">
-						<ArrowRightAltIcon /> {/* onclick: popup dialog to move forward with applicant*/}
+						<ArrowRightAltIcon />{" "}
+						{/* onclick: popup dialog to move forward with applicant*/}
 					</Button>
 				</CardActions>
 			</Box>
